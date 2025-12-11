@@ -3,6 +3,7 @@ export interface Course {
   name: string;
   credit: number;
   score: number;
+  isPlanned?: boolean;
 }
 
 export interface ScoreDistribution {
@@ -12,5 +13,5 @@ export interface ScoreDistribution {
 }
 
 export interface ImportResult {
-  courses: Omit<Course, 'id'>[];
+  courses: Omit<Course, 'id' | 'isPlanned'>[];
 }
