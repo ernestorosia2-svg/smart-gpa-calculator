@@ -1,0 +1,5 @@
+{
+  "name": "智能学分绩计算器 (Smart GPA Calculator)",
+  "description": "一个现代化的学分绩点计算工具，支持手动录入和AI智能识别课程文本。支持加权平均分计算与成绩分布可视化。",
+  "requestFramePermissions": []
+}
